@@ -4,7 +4,6 @@ namespace Rafa1944\Remote\Config;
 
 class RemoteConfig
 {
-
     public static function getHost($hostName): HostConfig
     {
         $configValues = config("remote.hosts.{$hostName}");

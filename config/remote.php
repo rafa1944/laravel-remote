@@ -11,10 +11,9 @@ return [
     ],
 
     'command-aliases' => [
-        'clear-all-caches' => [
-            'php artisan clear:cache',
-            'php artisan Config:cache',
-            'php artisan view:cache'
+        'test' => [
+            'ls',
+            'whoami',
         ]
     ]
 ];
